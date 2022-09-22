@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+
+.body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Las barres de navegació solen tenir un height de 55-60px. */
+.logo {
+    height: 55px;
+}
+
+.llista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.concert {
+    background-image: url(.//images/landing.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;    
+}
+
+.titulo {
+font-size: 50px;
+justify-content: center;
+}
+
+.prom {
+font-size: 30px;
+justify-content: center;
+width: 80%;
+}
+
+.question {
+    font-size: 25px;
+    text-align: center;
+}
+
+.funciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    
+}
+
+.songs {
+    height: 50px;
+    width: 70px;
+}
+
+.music {
+    height: 50px;
+    width: 70px;
+}
+
+.stream {
+    height: 50px;
+    width: 70px;
+}
+
+.canciones, .escuchar, .conectar {
+    width: 250px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.canciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.escuchar {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conectar {
+    display: flex;
+    flex-direction: column;
+
+}
+
